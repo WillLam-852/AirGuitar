@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D5ED0DD20E479750020B7B6 /* SingleTouchDownGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5ED0DC20E479750020B7B6 /* SingleTouchDownGestureRecognizer.swift */; };
+		B007FA9A1FC0BC7A00943593 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = B007FA981FC0BC7A00943593 /* .swiftlint.yml */; };
+		B007FA9B1FC0BC7A00943593 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = B007FA991FC0BC7A00943593 /* .swift-version */; };
+		B0A1004E1C4688A70092CBE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A1004D1C4688A70092CBE9 /* AppDelegate.swift */; };
+		B0A100501C4688A70092CBE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A1004F1C4688A70092CBE9 /* ViewController.swift */; };
+		B0A100571C4688A70092CBE9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B0A100561C4688A70092CBE9 /* .gitignore */; };
+		B0A100591C4688A70092CBE9 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = B0A100581C4688A70092CBE9 /* .travis.yml */; };
+		B0A1005C1C4688A70092CBE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A1005A1C4688A70092CBE9 /* Main.storyboard */; };
+		B0A1005E1C4688A70092CBE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A1005D1C4688A70092CBE9 /* Assets.xcassets */; };
+		B0A100611C4688A70092CBE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A1005F1C4688A70092CBE9 /* LaunchScreen.storyboard */; };
+		B0A100851C4688BE0092CBE9 /* Sampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A100841C4688BE0092CBE9 /* Sampler.swift */; };
+		B0BD4E411C662A5E00B84077 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BD4E401C662A5E00B84077 /* CoreAudio.framework */; };
+		B0BD4E4B1C6694FE00B84077 /* FluidR3 GM2-2.SF2 in Resources */ = {isa = PBXBuildFile; fileRef = B0BD4E4A1C6694FE00B84077 /* FluidR3 GM2-2.SF2 */; };
+		B17B472AC92277B5081061E9 /* Pods_Air_Guitar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB28692E248F74F6F727F8F /* Pods_Air_Guitar.framework */; };
+		BE44516820DCEBD200728690 /* Preset.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE44516720DCEBD200728690 /* Preset.swift */; };
+		EC0117BC218DEA1E008AB580 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0117BB218DEA1E008AB580 /* Section.swift */; };
+		EC0117BE218E775B008AB580 /* SectionsSequenceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0117BD218E775B008AB580 /* SectionsSequenceCollectionViewCell.swift */; };
+		EC05FF2D20D0EE710053BF65 /* SongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC05FF2C20D0EE710053BF65 /* SongsViewController.swift */; };
+		EC25484E20E34C4300D12BBC /* StringMotion_Sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC25484D20E34C4300D12BBC /* StringMotion_Sensor.swift */; };
+		EC25485020E34EA000D12BBC /* StringMotion_Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC25484F20E34E9F00D12BBC /* StringMotion_Parent.swift */; };
+		ECB5198920DDF53100113D25 /* PresetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB5198820DDF53000113D25 /* PresetCollectionViewCell.swift */; };
+		ECBF92A420D2599E00997BEC /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBF92A320D2599E00997BEC /* Song.swift */; };
+		ECBF92A620D25A8A00997BEC /* Chord.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBF92A520D25A8A00997BEC /* Chord.swift */; };
+		ECBF92AA20D4AAB400997BEC /* ChordsSequenceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBF92A920D4AAB400997BEC /* ChordsSequenceCollectionViewCell.swift */; };
+		ECD4A0742224F3690028CEA0 /* Guitar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD4A0732224F3690028CEA0 /* Guitar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D5ED0DC20E479750020B7B6 /* SingleTouchDownGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTouchDownGestureRecognizer.swift; sourceTree = "<group>"; };
+		1F213F7594DC17BBE9009204 /* Pods-Air Guitar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Air Guitar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Air Guitar/Pods-Air Guitar.debug.xcconfig"; sourceTree = "<group>"; };
+		2FB28692E248F74F6F727F8F /* Pods_Air_Guitar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Air_Guitar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B154EBAF3D195AE69B1ADD /* Pods-AVAudioUnitSamplerFrobs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVAudioUnitSamplerFrobs.release.xcconfig"; path = "Pods/Target Support Files/Pods-AVAudioUnitSamplerFrobs/Pods-AVAudioUnitSamplerFrobs.release.xcconfig"; sourceTree = "<group>"; };
+		7F4A0644B4119BCCE10B1680 /* Pods-AVAudioUnitSamplerFrobs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVAudioUnitSamplerFrobs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AVAudioUnitSamplerFrobs/Pods-AVAudioUnitSamplerFrobs.debug.xcconfig"; sourceTree = "<group>"; };
+		9EC3386E8284AF1052A3826A /* Pods-Air Guitar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Air Guitar.release.xcconfig"; path = "Pods/Target Support Files/Pods-Air Guitar/Pods-Air Guitar.release.xcconfig"; sourceTree = "<group>"; };
+		B007FA981FC0BC7A00943593 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		B007FA991FC0BC7A00943593 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		B0A1004A1C4688A70092CBE9 /* Air Guitar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Air Guitar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A1004D1C4688A70092CBE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0A1004F1C4688A70092CBE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0A100561C4688A70092CBE9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		B0A100581C4688A70092CBE9 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
+		B0A1005B1C4688A70092CBE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0A1005D1C4688A70092CBE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0A100601C4688A70092CBE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0A100621C4688A70092CBE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0A100841C4688BE0092CBE9 /* Sampler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sampler.swift; sourceTree = "<group>"; };
+		B0BD4E401C662A5E00B84077 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		B0BD4E4A1C6694FE00B84077 /* FluidR3 GM2-2.SF2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FluidR3 GM2-2.SF2"; sourceTree = "<group>"; };
+		BE44516720DCEBD200728690 /* Preset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preset.swift; sourceTree = "<group>"; };
+		EC0117BB218DEA1E008AB580 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		EC0117BD218E775B008AB580 /* SectionsSequenceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsSequenceCollectionViewCell.swift; sourceTree = "<group>"; };
+		EC05FF2C20D0EE710053BF65 /* SongsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		EC25484D20E34C4300D12BBC /* StringMotion_Sensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringMotion_Sensor.swift; sourceTree = "<group>"; };
+		EC25484F20E34E9F00D12BBC /* StringMotion_Parent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringMotion_Parent.swift; sourceTree = "<group>"; };
+		ECB5198820DDF53000113D25 /* PresetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetCollectionViewCell.swift; sourceTree = "<group>"; };
+		ECBF92A320D2599E00997BEC /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		ECBF92A520D25A8A00997BEC /* Chord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chord.swift; sourceTree = "<group>"; };
+		ECBF92A920D4AAB400997BEC /* ChordsSequenceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordsSequenceCollectionViewCell.swift; sourceTree = "<group>"; };
+		ECD4A0732224F3690028CEA0 /* Guitar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0A100471C4688A70092CBE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BD4E411C662A5E00B84077 /* CoreAudio.framework in Frameworks */,
+				B17B472AC92277B5081061E9 /* Pods_Air_Guitar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F2FEDC19CA601B3DA5CDFA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F4A0644B4119BCCE10B1680 /* Pods-AVAudioUnitSamplerFrobs.debug.xcconfig */,
+				50B154EBAF3D195AE69B1ADD /* Pods-AVAudioUnitSamplerFrobs.release.xcconfig */,
+				1F213F7594DC17BBE9009204 /* Pods-Air Guitar.debug.xcconfig */,
+				9EC3386E8284AF1052A3826A /* Pods-Air Guitar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		652699B8D4E7CBCCC44898E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FB28692E248F74F6F727F8F /* Pods_Air_Guitar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0A100411C4688A70092CBE9 = {
+			isa = PBXGroup;
+			children = (
+				B007FA991FC0BC7A00943593 /* .swift-version */,
+				B007FA981FC0BC7A00943593 /* .swiftlint.yml */,
+				B0BD4E401C662A5E00B84077 /* CoreAudio.framework */,
+				B0A1004C1C4688A70092CBE9 /* Air Guitar */,
+				B0A1004B1C4688A70092CBE9 /* Products */,
+				3F2FEDC19CA601B3DA5CDFA9 /* Pods */,
+				652699B8D4E7CBCCC44898E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B0A1004B1C4688A70092CBE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0A1004A1C4688A70092CBE9 /* Air Guitar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0A1004C1C4688A70092CBE9 /* Air Guitar */ = {
+			isa = PBXGroup;
+			children = (
+				ECD4A0732224F3690028CEA0 /* Guitar.swift */,
+				B0A1004F1C4688A70092CBE9 /* ViewController.swift */,
+				EC05FF2C20D0EE710053BF65 /* SongsViewController.swift */,
+				ECBF92A920D4AAB400997BEC /* ChordsSequenceCollectionViewCell.swift */,
+				EC0117BD218E775B008AB580 /* SectionsSequenceCollectionViewCell.swift */,
+				0D5ED0DC20E479750020B7B6 /* SingleTouchDownGestureRecognizer.swift */,
+				ECB5198820DDF53000113D25 /* PresetCollectionViewCell.swift */,
+				ECBF92A320D2599E00997BEC /* Song.swift */,
+				EC0117BB218DEA1E008AB580 /* Section.swift */,
+				ECBF92A520D25A8A00997BEC /* Chord.swift */,
+				BE44516720DCEBD200728690 /* Preset.swift */,
+				B0BD4E4A1C6694FE00B84077 /* FluidR3 GM2-2.SF2 */,
+				B0A1004D1C4688A70092CBE9 /* AppDelegate.swift */,
+				B0A1005A1C4688A70092CBE9 /* Main.storyboard */,
+				B0A1005D1C4688A70092CBE9 /* Assets.xcassets */,
+				B0A1005F1C4688A70092CBE9 /* LaunchScreen.storyboard */,
+				B0A100621C4688A70092CBE9 /* Info.plist */,
+				EC25484F20E34E9F00D12BBC /* StringMotion_Parent.swift */,
+				EC25484D20E34C4300D12BBC /* StringMotion_Sensor.swift */,
+				B0A100511C4688A70092CBE9 /* Supporting Files */,
+				B0A100841C4688BE0092CBE9 /* Sampler.swift */,
+			);
+			path = "Air Guitar";
+			sourceTree = "<group>";
+		};
+		B0A100511C4688A70092CBE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0A100561C4688A70092CBE9 /* .gitignore */,
+				B0A100581C4688A70092CBE9 /* .travis.yml */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0A100491C4688A70092CBE9 /* Air Guitar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A1007B1C4688A70092CBE9 /* Build configuration list for PBXNativeTarget "Air Guitar" */;
+			buildPhases = (
+				16D5F9D96BDCFE82F031AC98 /* [CP] Check Pods Manifest.lock */,
+				B007FA9C1FC0BCB300943593 /* ShellScript */,
+				B0A100461C4688A70092CBE9 /* Sources */,
+				B0A100471C4688A70092CBE9 /* Frameworks */,
+				B0A100481C4688A70092CBE9 /* Resources */,
+				8B832A81CD51528B80C089FA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Air Guitar";
+			productName = AVAudioUnitSamplerFrobs;
+			productReference = B0A1004A1C4688A70092CBE9 /* Air Guitar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0A100421C4688A70092CBE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Gene De Lisa";
+				TargetAttributes = {
+					B0A100491C4688A70092CBE9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = T3N6692BLL;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B0A100451C4688A70092CBE9 /* Build configuration list for PBXProject "Air Guitar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0A100411C4688A70092CBE9;
+			productRefGroup = B0A1004B1C4688A70092CBE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0A100491C4688A70092CBE9 /* Air Guitar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0A100481C4688A70092CBE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A100591C4688A70092CBE9 /* .travis.yml in Resources */,
+				B0A100571C4688A70092CBE9 /* .gitignore in Resources */,
+				B007FA9B1FC0BC7A00943593 /* .swift-version in Resources */,
+				B0A100611C4688A70092CBE9 /* LaunchScreen.storyboard in Resources */,
+				B0A1005C1C4688A70092CBE9 /* Main.storyboard in Resources */,
+				B007FA9A1FC0BC7A00943593 /* .swiftlint.yml in Resources */,
+				B0BD4E4B1C6694FE00B84077 /* FluidR3 GM2-2.SF2 in Resources */,
+				B0A1005E1C4688A70092CBE9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16D5F9D96BDCFE82F031AC98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Air Guitar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B832A81CD51528B80C089FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Air Guitar/Pods-Air Guitar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Air Guitar/Pods-Air Guitar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B007FA9C1FC0BCB300943593 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0A100461C4688A70092CBE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBF92A620D25A8A00997BEC /* Chord.swift in Sources */,
+				0D5ED0DD20E479750020B7B6 /* SingleTouchDownGestureRecognizer.swift in Sources */,
+				ECBF92AA20D4AAB400997BEC /* ChordsSequenceCollectionViewCell.swift in Sources */,
+				ECD4A0742224F3690028CEA0 /* Guitar.swift in Sources */,
+				EC25485020E34EA000D12BBC /* StringMotion_Parent.swift in Sources */,
+				EC25484E20E34C4300D12BBC /* StringMotion_Sensor.swift in Sources */,
+				ECB5198920DDF53100113D25 /* PresetCollectionViewCell.swift in Sources */,
+				B0A100501C4688A70092CBE9 /* ViewController.swift in Sources */,
+				EC0117BC218DEA1E008AB580 /* Section.swift in Sources */,
+				B0A100851C4688BE0092CBE9 /* Sampler.swift in Sources */,
+				EC0117BE218E775B008AB580 /* SectionsSequenceCollectionViewCell.swift in Sources */,
+				EC05FF2D20D0EE710053BF65 /* SongsViewController.swift in Sources */,
+				B0A1004E1C4688A70092CBE9 /* AppDelegate.swift in Sources */,
+				BE44516820DCEBD200728690 /* Preset.swift in Sources */,
+				ECBF92A420D2599E00997BEC /* Song.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0A1005A1C4688A70092CBE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0A1005B1C4688A70092CBE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0A1005F1C4688A70092CBE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0A100601C4688A70092CBE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0A100791C4688A70092CBE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: kcfdaniel@yahoo.com.hk (X2GJ4Z7487)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0A1007A1C4688A70092CBE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: kcfdaniel@yahoo.com.hk (X2GJ4Z7487)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0A1007C1C4688A70092CBE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F213F7594DC17BBE9009204 /* Pods-Air Guitar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3N6692BLL;
+				INFOPLIST_FILE = "$(SRCROOT)/Air Guitar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kcfdanielwill.airguitar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		B0A1007D1C4688A70092CBE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC3386E8284AF1052A3826A /* Pods-Air Guitar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3N6692BLL;
+				INFOPLIST_FILE = "$(SRCROOT)/Air Guitar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kcfdanielwill.airguitar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0A100451C4688A70092CBE9 /* Build configuration list for PBXProject "Air Guitar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A100791C4688A70092CBE9 /* Debug */,
+				B0A1007A1C4688A70092CBE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B0A1007B1C4688A70092CBE9 /* Build configuration list for PBXNativeTarget "Air Guitar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A1007C1C4688A70092CBE9 /* Debug */,
+				B0A1007D1C4688A70092CBE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0A100421C4688A70092CBE9 /* Project object */;
+}
